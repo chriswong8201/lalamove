@@ -57,7 +57,7 @@ public class DownloadBitMap {
             bitmap = BitmapFactory.decodeStream(in);
             in.close();
         } catch (IOException e1) {
-            
+
             e1.printStackTrace();
         }
         return bitmap;
